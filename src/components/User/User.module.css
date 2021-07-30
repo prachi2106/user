@@ -1,0 +1,37 @@
+body {
+  background-color: #514444;
+}
+
+.user {
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem auto;
+  width: 40rem;
+}
+
+.user form{
+    width: 100%;
+    margin: 1rem ;
+}
+.user label {
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.user input{
+    display: block;
+    width: 100%;
+    line-height: 1.5rem;
+    padding: 0 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.invalid input{
+    background-color: #ffd7d7;
+
+}
